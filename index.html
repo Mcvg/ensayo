@@ -1,40 +1,194 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <title>Ship To It - Company Packing List</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
-  <link href="style.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-
-  <ul class="navigation">
-    <li><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>
-    <li class="active">Action List</li>
-    <li>Profiles</li>
-    <li>Settings</li>
-  </ul>
-
-  <div class="search">Search the table</div>
-
-<table>
-  <tbody>
- <thead> <tr>
-    <th>Company Name</th>
-    <th>Number of Items to Ship</th>
-    <th>Next Action</th>
-   </tr></thead>
-  <tr>
-    <td colspan ="2">Adam's Greenworks</td>
-    <td rowspan ="2">14</td>
-    <td>Package Items</td>
-  </tr>
-  </tbody>
-  <tfoot>
-    <td>Total</td>
-<td>28</td>
-  </tfoot>
-</table>
+  <head>
+    <meta charset="utf-8">
+    <title>propiedades de ubicacion</title>
+    <style>
+      *{
+      margin:0;
+      padding:0;
+      list-style:none;
+      }
+      
+      header{
+      position:relative;
+      margin: 20px auto;
+      width:1000px;
+      height:120px;
+      background:#444;
+            
+      }
+      #logo{
+       position:absolute;
+      top:30px;
+      left:30px;
+      width:200px;
+      height:60px;
+      background:#ccc;
+      }
+      
+      .redes{
+      position:absolute;
+      width:42px;
+      height:42px;
+      background:#000;
+      border-radius:100%;
+      }
+      
+      #icono1{
+      top:42px;
+      right:120px;
+      }
+      
+      #icono2{
+      top:42px;
+      right:71px;
+      }
+      
+      #icono3{
+      top:42px;
+      right:19px;
+      }
+      
+      nav{
+      position:relative;
+      margin: auto;
+      width:1000px;
+      height:48px;
+      
+      
+      }
+      
+      .botones{
+      float:left;
+      width:196px;
+      margin:0px 2px;
+      height:48px;
+      background: #333;
+      
+      }
+      
+      #top{
+       position:relative;
+      margin: 20px auto;
+      width:1000px;
+      height:192px;
+      
+      }
+      #top ul{
+      width:1010px;
+      height:192px;
+      }
+         
+      #top ul li {
+      float:left;
+       width:326px;
+      height:192px;
+      background:gray;
+      margin-right:10px
+      }
+      
+      section{
+      position:relative;
+      margin: auto;
+      width:1000px;
+      height:453px;
+      background:#aaa;
+      }
+      aside#izq{
+      position:absolute;
+      left:0;
+      top:0;
+      width:200px;
+      height:453px;
+      background:#333;
+      }
+      
+       aside#der{
+      position:absolute;
+      right:0;
+      top:0;
+      width:200px;
+      height:453px;
+      background:#333;
+      }
+      
+      article{
+      position:absolute;
+      left:200px;
+      top:0;
+      width:600px;
+      height:453px;
+      background:#323;
+      }
+      
+      footer{
+         position:relative;
+      margin: 20px auto;
+      width:1000px;
+      height:70px;
+      background:#888;
+      }
+      
   
-
-</body>
-</html>
+      
+      
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <div id="logo">Logotipo
+       </div>
+      <br>
+      <div id="icono1" class="redes"> </div>
+      <br>
+      <div id="icono2" class="redes"> </div>
+      <br>
+      <div id="icono3" class="redes"> </div>
+      
+    </header>
+    <nav>
+      <ul>
+        <li class="botones">Botón 1</li>
+        <li class="botones">Botón 2</li>
+        <li class="botones">Botón 3</li>
+        <li class="botones">Botón 4</li>
+        <li class="botones">Botón 5</li>
+      </ul>
+        </nav>
+    
+    <div id ="top">
+      <ul>
+        <li><h1>Lorem Ipsum</h1>
+          <p>Lorem ipsum dolor sit amet, consectur adipiscing elit.</p>
+        </li>
+        <li><h1>Lorem Ipsum</h1>
+          <p>Lorem ipsum dolor sit amet, consectur adipiscing elit.</p>
+        </li>
+        <li><h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectur adipiscing elit.</p>
+        </li>
+      </ul>
+    </div>
+    
+    <section>
+      
+      <aside id="izq"> </aside>
+      <article>
+        <h1> Lorem Ipsum</h1>
+        <p> El personal o recurso humano encargado de Mesa de Ayuda (MDA) debe saber proporcionar respuestas y soluciones a los usuarios finales, clientes o beneficiarios (destinatarios del servicio), y también puede otorgar asesoramiento en relación con una organización o institución, productos y servicios. Generalmente, el propósito de MDA es solucionar problemas o para orientar acerca de computadoras, equipos electrónicos o software</p>
+        <br>
+        <p>
+          El personal o recurso humano encargado de Mesa de Ayuda (MDA) debe saber proporcionar respuestas y soluciones a los usuarios finales, clientes o beneficiarios (destinatarios del servicio), y también puede otorgar asesoramiento en relación con una organización o institución, productos y servicios. Generalmente, el propósito de MDA es solucionar problemas o para orientar acerca de computadoras, equipos electrónicos o software.
+        </p>
+      </article>
+      <aside id="der"> </aside>
+      
+    </section>
+    
+    <footer>
+    </footer>
+      
+    </section>
+  </body>
+  </html>
