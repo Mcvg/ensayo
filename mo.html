@@ -7,20 +7,82 @@
   </head>
   
   <body>
+      <SCRIPT  language=JavaScript> 
+	
+
+function mo(){
+
+	swal({ 
+ title: "¿Está seguro que desea cerrar sesión?", 
+ text: "No podrás deshacer este paso...", 
+ type: "warning", 
+ showCancelButton: true,
+ cancelButtonText: "NO", 
+ confirmButtonColor: "#DD6B55", 
+ confirmButtonText: "SI", 
+ closeOnConfirm: false }, 
+
+ function(){ 
+ window.location="inicioSesion.HTML"; 
+ });
+
+} 
+</SCRIPT> 
     <header>
 	<div class="fondo">
 	   <div id="titulo">
 	   MO
 	   </div>
+    </header>
+	<div class="menu">
+			   </div>
 	   <div id="logo">
        </div>
     </header>
 	<div class="menu">
-		<h3 style= text-align:center>Menú</h3>
-		<a href="inicio.html">Inicio</a></li>
-		<a href="mo.html">MO</a></li>
-		<a href="#">OC</a></li>
-		<a href="#">OC</a></li>
+		<ul id="navigationMenu">
+    <li>
+	    <a class="home" href="inicio.html">
+            <span>Inicio</span>
+        </a>
+    </li>
+    
+    <li>
+    	<a class="portfolio" href="#">
+            <span>Pureza y Humildad</span>
+        </a>
+    </li>
+	
+	<li>
+    	<a class="union" href="#">
+            <span>Vida De Unión Con María</span>
+        </a>
+    </li>
+	
+	<li>
+    	<a class="signos" href="#">
+            <span>Signos De Un Consagrado</span>
+        </a>
+    </li>
+	    
+    <li>
+	     <a class="services" href="#">
+            <span>Oraciones Del Consagrado</span>
+         </a>
+    </li>
+	    
+    <li>
+    	<a class="about" href="mo.html">
+            <span>Jesús Nuestro Fín Último</span>
+        </a>
+    </li>
+    
+    <li>
+    	<a class="contact" onclick=mo(); id="mo">
+            <span>Cerrar Sesión</span>
+        </a>
+    </li>
+</ul>
 	</div>
 	<nav class="mortificacion">
 	Mortificación

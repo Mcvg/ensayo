@@ -8,36 +8,8 @@
       header{
       position:relative;
       height:120px;
-	    /* Old browsers */
-  background: #141E30;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #35577D, #141E30);
-            
-      }
-	  
-      #logo{
-       position:absolute;
-      top:30px;
-      left:30px;
-      width:80px;
-      height: 80px;
-  background-image: url("imagenes/logoRPV.jpg");
-  background-size: cover;
-  background-position: center;
-      }
-	  
-	  #logoInicio{
-       position:absolute;
-      top:30px;
-      left:30px;
-      width:80px;
-      height: 80px;
-  background-image: url("imagenes/logoInicio.jpg");
-  background-size: cover;
-  background-position: center;
-      }
+      background-image: url("imagenes/virgen.jpg");    
+	  opacity: 0.9;  
 	  
 	  #titulo{
 		  position:absolute;
@@ -48,6 +20,7 @@
   background-position: center;
   color: #FFFFFF;
   font-size: 60px;
+  font-family: 'Pacifico', cursive;
 	  }
 	  
 	  body{
@@ -56,51 +29,7 @@
 	  background: linear-gradient(-45deg, #F7F7F7, #ffffff);
 	  padding: 0px;
 	  }
-	
-.menu a {
-    color: white;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    background-color: white;
-	color: black;
-}
-
-.menu a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.menu #mo{
-	background-color: transparent;
-	color:white;
-	font-family: 'Arvo', serif;
-  font-size: 13 px;	
-  height: 20px;
-  width: 
-}
-
-.menu {
-  display: table;
-  height: 100px;
-     background: #141E30;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #35577D, #141E30);
-  color: #FFFFFF;
-  font-family: 'Arvo', serif;
-  font-size: 13 px;
-  padding: 10px;
-text-align: left;  
-  text-align: left;
-  position: relative;
-}
-
-      
+	    
       nav #mortificacion{
      margin:0px 2px;
       margin: auto;
@@ -177,5 +106,184 @@ form .boton{
 
 }
 
+
+
+#navigationMenu li{
+	list-style:none;
+	height:39px;
+	padding:2px;
+	width:40px;
+}
+
+#navigationMenu span{
+	/* Container properties */
+	width:0;
+	left:38px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+
+	/* Text properties */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;
+	
+	/* CSS3 Transition: */
+	-webkit-transition: 0.25s;
+	
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#navigationMenu a{
+	height:39px;
+	width:38px;
+	display:block;
+	position:relative;
+}
+
+/* General hover styles */
+
+#navigationMenu a:hover span{ width:auto; padding:0 20px;overflow:visible; }
+#navigationMenu a:hover{
+	text-decoration:none;
+	
+	/* CSS outer glow with the box-shadow property */
+	-moz-box-shadow:0 0 5px #9ddff5;
+	-webkit-box-shadow:0 0 5px #9ddff5;
+	box-shadow:0 0 5px #9ddff5;
+}
+
+/* Green Button */
+
+#navigationMenu .home {	
+background-position:0 0;
+background:url('imagenes/navigation.jpg') no-repeat;
+}
+#navigationMenu .home:hover {	background-position:0 -39px;}
+#navigationMenu .home span{
+	background-color:#7da315;
+	color:#3d4f0c;
+	text-shadow:1px 1px 0 #99bf31;
+}
+
+/* Blue Button */
+
+#navigationMenu .about {background-position: 0 0;
+background:url('imagenes/m.jpg') no-repeat;}
+#navigationMenu .about:hover { opacity: 0.7;}
+#navigationMenu .about span{
+	background-color:#c86c1f;
+	color:#5a3517;
+	text-shadow:1px 1px 0 #d28344;
+}
+
+/* Orange Button */
+
+#navigationMenu .services { 
+background:url('imagenes/OC.jpg') no-repeat;
+background-position:0 0;}
+#navigationMenu .services:hover { opacity: 0.7;}
+#navigationMenu .services span{
+	background-color:#F2F2F2;
+	color:#223a44
+text-shadow:1px 1px 0 #44a8d0;}
+	
+
+
+/* Yellow Button */
+
+#navigationMenu .portfolio { 
+background:url('imagenes/Pu.jpg') no-repeat;
+background-position:0 0;}
+#navigationMenu .portfolio:hover{ opacity: 0.7;}
+#navigationMenu .portfolio span{
+	background-color:#44393C;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #604e18;
+}
+
+#navigationMenu .union { 
+background:url('imagenes/union.jpg') no-repeat;
+background-position:0 0;}
+#navigationMenu .union:hover{ opacity: 0.7;}
+#navigationMenu .union span{
+	background-color:rgb(230, 136, 136);
+	color:#ffffff;
+	text-shadow:1px 1px 0 #604e18;
+}
+
+
+#navigationMenu .signos { 
+background:url('imagenes/signos.jpg') no-repeat;
+background-position:0 0;}
+#navigationMenu .signos:hover{ opacity: 0.7;}
+#navigationMenu .signos span{
+	background-color:rgb(0, 144, 237);
+	color:rgb(204, 228, 254);
+	text-shadow:1px 1px 0 #604e18;
+}
+
+/* Purple Button */
+
+#navigationMenu .contact { background-position: 0 0;
+background:url('imagenes/cerrar.jpg') no-repeat;}
+#navigationMenu .contact:hover { opacity: 0.7;}
+#navigationMenu .contact span{
+	background-color:#73CFED;
+	color:#2E2EFE;
+	text-shadow:1px 1px 0 #8BDDF9;
+}
+
+/* The styles below are only needed for the demo page */
+
+#main{
+	margin:80px auto;
+	position:relative;
+	width:40px;
+}
+
+
+h1{
+	color:#fff;
+	font-size:30px;
+	font-weight:normal;
+	padding:60px 0 20px;
+	text-align:center;
+}
+
+h2{
+	font-weight:normal;
+	text-align:center;
+}
+
+h1,h2{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+}
+
+a, a:visited,a:active {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+p.note{
+	color:#707070;
+	font-size:10px;
+	text-align:center;
+	margin:50px;
+}
   
       
