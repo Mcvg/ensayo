@@ -1,0 +1,49 @@
+﻿<html>
+ <head>
+    <meta charset="utf-8">
+    <title>propiedades de ubicacion</title>
+      <link href="style.css" type="text/css" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	  	       <link rel="stylesheet" type="text/css" href="lib/sweetalert.css">
+     <script src="lib/sweetalert.min.js"></script>
+  </head>
+  
+  <body>
+    <SCRIPT  language=JavaScript> 
+	
+
+function mo(){
+
+	swal({ 
+ title: "¿Está seguro que desea cerrar sesión?", 
+ text: "No podrás deshacer este paso...", 
+ type: "warning", 
+ showCancelButton: true,
+ cancelButtonText: "NO", 
+ confirmButtonColor: "#DD6B55", 
+ confirmButtonText: "SI", 
+ closeOnConfirm: false }, 
+
+ function(){ 
+ window.location="inicioSesion.HTML"; 
+ });
+
+} 
+</SCRIPT> 
+    <header>
+	   <div id="titulo">
+	   RPV
+	   </div>
+	   <div id="logo">
+       </div>
+    </header>
+	<div class="menu">
+		<h3 style= text-align:center>Menú</h3>
+		<a href="inicio.html">Inicio</a>
+		<a href="mo.html">MO</a>
+		<input type="button" onclick=mo() value="Cerrar sesión" id="mo">
+	</div>
+	<nav>
+	¿Para qué se hace?
+	</nav>
+</html>

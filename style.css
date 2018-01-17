@@ -1,0 +1,181 @@
+ *{
+      margin:0;
+      padding:0;
+      list-style:none;
+	  font-family: 'Arvo', serif;
+      }
+      
+      header{
+      position:relative;
+      height:120px;
+	    /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+            
+      }
+	  
+      #logo{
+       position:absolute;
+      top:30px;
+      left:30px;
+      width:80px;
+      height: 80px;
+  background-image: url("imagenes/logoRPV.jpg");
+  background-size: cover;
+  background-position: center;
+      }
+	  
+	  #logoInicio{
+       position:absolute;
+      top:30px;
+      left:30px;
+      width:80px;
+      height: 80px;
+  background-image: url("imagenes/logoInicio.jpg");
+  background-size: cover;
+  background-position: center;
+      }
+	  
+	  #titulo{
+		  position:absolute;
+      top:20px;
+      left:500px;
+      width:1000px;
+      height: 80px;
+  background-position: center;
+  color: #FFFFFF;
+  font-size: 60px;
+	  }
+	  
+	  body{
+		  background: #ffffff;
+	  background: -webkit-linear-gradient(-45deg, #F7F7F7, #ffffff);
+	  background: linear-gradient(-45deg, #F7F7F7, #ffffff);
+	  padding: 0px;
+	  }
+	
+.menu a {
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: white;
+	color: black;
+}
+
+.menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.menu #mo{
+	background-color: transparent;
+	color:white;
+	font-family: 'Arvo', serif;
+  font-size: 13 px;	
+  height: 20px;
+  width: 
+}
+
+.menu {
+  display: table;
+  height: 100px;
+     background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  color: #FFFFFF;
+  font-family: 'Arvo', serif;
+  font-size: 13 px;
+  padding: 10px;
+text-align: left;  
+  text-align: left;
+  position: relative;
+}
+
+      
+      nav #mortificacion{
+     margin:0px 2px;
+      margin: auto;
+      width:600px;
+      height:700px;
+	  top: -160px;
+	  left: 140px;    
+	  position: relative;
+	  background-color: white;      
+      }
+	  
+    #mortificacion , #oracion {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 600px;
+  height: 700px;
+  overflow: scroll;
+}
+
+      
+      footer{
+         position:relative;
+      margin: 0px auto;
+      width:1362px;
+      height:40px;
+      background:#ffffff;
+	  opacity: 0.7; 
+	  text-align: center;
+      }
+	  footer .info{
+		  opacity: 1.0;
+		  color: black;
+		   margin: 0px auto;
+	  }
+
+	  .inicioSesion {
+		   background-image: url("imagenes/fondo.jpg");
+	  }
+form{
+
+background:#FFFFFF;
+opacity: 0.9;
+width:360px;
+border:1px solid #dcdcdc;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+box-shadow:inset 0 0 10px #000;
+margin:100px auto;
+}
+formh1{
+text-align:left;
+color:#000080;
+font-weight:normal;
+font-size:60pt;
+margin:30px 0px;
+font-family: "Pinyon Script",cursive;
+}
+
+form input{
+width:280px;
+height:45px;
+padding:2px 7px;
+color:#000000;
+text-align:center;
+}
+
+form .boton{
+ background-image:url(imagenes/desbloqueo.jpg);
+  background-repeat:no-repeat;
+  height:54px;
+  width:54px;
+
+}
+
+  
+      
