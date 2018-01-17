@@ -4,56 +4,65 @@
       list-style:none;
 	  font-family: 'Arvo', serif;
       }
-      
+	  
       header{
       position:relative;
       height:120px;
       background-image: url("imagenes/virgen.jpg");    
-	  opacity: 0.9;  
+	  opacity: 1.0;  
       }
+	  
 	  
      
 	  
 	  #titulo{
 		  position:absolute;
       top:20px;
-      left:500px;
+      left:0px;
       width:1000px;
       height: 80px;
   background-position: center;
   color: #FFFFFF;
   font-size: 60px;
   font-family: 'Pacifico', cursive;
+  text-shadow:1px 1px 0 #604e18;
 	  }
 	  
-	  body{
-		  background: #ffffff;
-	  background: -webkit-linear-gradient(-45deg, #F7F7F7, #ffffff);
-	  background: linear-gradient(-45deg, #F7F7F7, #ffffff);
-	  padding: 0px;
+	  .inicio{
+		background-image: url("imagenes/fondoInicio.jpg");
+		opacity: 1.0;
 	  }
+	  
+	  .mo{
+		background-image: url("imagenes/fondoInicio.jpg");
+		opacity: 1.0;
+	  }
+	  
+	   #navInicio{
+      margin: auto;
+      width:1100px;
+      height:400px;
+	  top: -230px;
+	  left: 100px;    
+	  position: relative;
+	  background-color: white; 	 
+  text-align: justify;
+  overflow: scroll;	  
+      }
 	    
       nav #mortificacion{
-     margin:0px 2px;
       margin: auto;
-      width:600px;
-      height:700px;
-	  top: -160px;
-	  left: 140px;    
+      width:1100px;
+      height:400px;
+	  top: -230px;
+	  left: 100px;    
 	  position: relative;
-	  background-color: white;      
+	  background-color: white;   
+text-align: justify;	  
+  overflow: scroll;	
       }
 	  
-    #mortificacion , #oracion {
-  margin: 0 auto;
-  padding: 40px;
-  text-align: center;
-  width: 600px;
-  height: 700px;
-  overflow: scroll;
-}
-
-      
+        
       footer{
          position:relative;
       margin: 0px auto;
@@ -147,6 +156,7 @@ form .boton{
 	width:38px;
 	display:block;
 	position:relative;
+	z-index: 5;
 }
 
 /* General hover styles */
