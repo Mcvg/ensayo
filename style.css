@@ -12,9 +12,6 @@
 	  opacity: 1.0;  
       }
 	  
-	  
-     
-	  
 	  #titulo{
 		  position:absolute;
       top:20px;
@@ -203,8 +200,8 @@ background-position:0 0;}
 #navigationMenu .services:hover { opacity: 0.7;}
 #navigationMenu .services span{
 	background-color:#F2F2F2;
-	color:#223a44
-text-shadow:1px 1px 0 #44a8d0;}
+	color:#223a44;
+text-shadow: 1px 1px 0 #44a8d0;}
 	
 
 
@@ -253,50 +250,134 @@ background:url('imagenes/cerrar.jpg') no-repeat;}
 }
 
 /* The styles below are only needed for the demo page */
-
-#main{
-	margin:80px auto;
-	position:relative;
-	width:40px;
+.charlas  {
+		   background-image: url("imagenes/fondoCharlas.jpg");
+       opacity: 0.8;
+	  }
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
 }
 
-
-h1{
-	color:#fff;
-	font-size:30px;
-	font-weight:normal;
-	padding:60px 0 20px;
-	text-align:center;
+.consagracion, .renuncias, .plan {
+  top: -200px !important;
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
 }
 
-h2{
-	font-weight:normal;
-	text-align:center;
+.imageConsagracion {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden; 
+  border-radius: 10px;
+  background-image: url("imagenes/consagracion.jpg"); 
 }
 
-h1,h2{
-	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+.cambioConsagracion {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -70%;
+  transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  text-align: center;
 }
 
-a, a:visited,a:active {
-	color:#0196e3;
-	text-decoration:none;
-	outline:none;
+.consagracion:hover .imageConsagracion {
+  opacity: 0.3;
 }
 
-a:hover{
-	text-decoration:underline;
+.consagracion:hover .cambioConsagracion {
+  opacity: 1;
+}
+.imageRenuncias {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden; 
+  border-radius: 10px;
+  background-image: url("imagenes/consagracion.jpg"); 
 }
 
-a img{
-	border:none;
+.cambioRenuncias {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -70%;
+  transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  text-align: center;
 }
 
-p.note{
-	color:#707070;
-	font-size:10px;
-	text-align:center;
-	margin:50px;
+.renuncias:hover .imageRenuncias {
+  opacity: 0.3;
 }
-  
-      
+
+.renuncias:hover .cambioRenuncias {
+  opacity: 1;
+}
+.imagePlan {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden; 
+  border-radius: 10px;
+  background-image: url("imagenes/consagracion.jpg"); 
+}
+
+.cambioPlan {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -70%;
+  transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  text-align: center;
+}
+
+.plan:hover .imagePlan {
+  opacity: 0.3;
+}
+
+.plan:hover .cambioPlan {
+  opacity: 1;
+}
+.renuncias .text{
+  background-color:  #CE7432;
+}
+
+.consagracion .text{
+  background-color:  #48C9B0;
+}
+
+.plan .text{
+  background-color:  #3498DB;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('imagenes/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
