@@ -52,7 +52,8 @@
       width:1100px;
       height:400px;
 	  top: -230px;
-	  left: 100px;    
+	  left: 100px;  
+    padding: 10px;  
 	  position: relative;
 	  background-color: white;   
 text-align: justify;	  
