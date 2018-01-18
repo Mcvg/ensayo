@@ -5,8 +5,10 @@
       <link href="style.css" type="text/css" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-	  <style type="text/css">body, a, a:hover, head {cursor: url(http://cur.cursors-4u.net/cursors/cur-4/cur361.cur), progress;}</style>
-	  
+      	       <link rel="stylesheet" type="text/css" href="lib/sweetalert.css">
+     <script src="lib/sweetalert.min.js"></script>	  
+<style type="text/css">body, a, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-5/cur464.cur), progress;}</style>
+ 
   </head>
   
   <body class= "mo">
@@ -28,8 +30,17 @@ function mo(){
  function(){ 
  window.location="inicioSesion.HTML"; 
  });
+}
 
-} 
+ function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+ 
 </SCRIPT> 
 <div>
 	   <div id="titulo">
@@ -37,56 +48,22 @@ function mo(){
 	   </div>
        
 
-	<div class="menu">
-			   </div>
-	   <div id="logo">
-       </div>
-    </header>
-	<div class="menu">
-		<ul id="navigationMenu">
-    <li>
-	    <a class="home" href="inicio.html">
-            <span>Inicio</span>
-        </a>
-    </li>
-    
-    <li>
-    	<a class="portfolio" href="#">
-            <span>Pureza y Humildad</span>
-        </a>
-    </li>
-	
-	<li>
-    	<a class="union" href="#">
-            <span>Vida De Unión Con María</span>
-        </a>
-    </li>
-	
-	<li>
-    	<a class="signos" href="#">
-            <span>Signos De Un Consagrado</span>
-        </a>
-    </li>
-	    
-    <li>
-	     <a class="services" href="#">
-            <span>Oraciones Del Consagrado</span>
-         </a>
-    </li>
-	    
-    <li>
-    	<a class="about" href="mo.html">
-            <span>Jesús Nuestro Fín Último</span>
-        </a>
-    </li>
-    
-    <li>
-    	<a class="contact" onclick=mo(); id="mo">
-            <span>Cerrar Sesión</span>
-        </a>
-    </li>
-</ul>
 	</div>
+
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="charlas.html">Inicio</a>
+  <a href="#">Pureza y Humildad</a>
+  <a href="#">Vida De Unión Con María</a>
+  <a href="#">Signos De Un Consagrado</a>
+  <a href="#">Oraciones Del Consagrado</a>
+  <a href="mo.html"> Jesús Nuestro Fín Último</a>
+  <a class="contact" onclick=mo(); id="mo">Cerrar Sesión</a>
+</div>
+<div style="position:initial;">
+    <img src="imagenes/menu.png" onclick="openNav()" style="cursor:pointer; size: 0vmax">
+</div>
+
 	<nav class="mortificacion" >
     <div id="mortificacion" class="content">
         Con el pecado orginal todo se cambió, antes el alma estaba por 

@@ -8,16 +8,15 @@
       position:relative;
       height:120px;
       background-image: url("imagenes/virgen.jpg");    
-	  opacity: 1.0;  
     max-width:100%;
       }
 	  
 	  #titulo{
 		  position:absolute;
-      top:20px;
-      left:0px;
-      width:1000px;
-      height: 80px;
+      top:5%;
+      left:0%;
+      width:80%px;
+      height: 20%px;
   background-position: center;
   color: #FFFFFF;
   font-size: 60px;
@@ -55,13 +54,12 @@
       margin: auto;
       width: 70%;
       height: 50%;
-	  top: -150px;
+	  top: 100px;
 	  left: -5%;  
     padding: 10px;  
 	  position: relative;
     color: white;  
 text-align: justify;
-opacity: 1 !important;
       }
 	  
         
@@ -190,7 +188,6 @@ form .boton:focus{
 	display:block;
 	position:relative;
 	z-index: 5;
-  opacity: 1;
 }
 
 /* General hover styles */
@@ -282,17 +279,15 @@ background:url('imagenes/cerrar.jpg') no-repeat;}
 
 /* The styles below are only needed for the demo page */
 .charlas  {
-		   background-image: url("imagenes/fondoCharlas.jpg");
-       opacity: 0.8;
+		   background-image: url("imagenes/virgen.jpg");
 	  }
 .question {
   text-align: center;
   position: relative;
-  top: 40px;
+  top: 30%;
 }
 
 .consagracion, .renuncias, .plan {
-  top: -200px !important;
   border: 1px solid #466995;
   margin: 20px;
   display: inline-block;
@@ -302,8 +297,7 @@ background:url('imagenes/cerrar.jpg') no-repeat;}
 }
 
 .imageConsagracion {
-  opacity: 1;
-  display: block;
+  display: inline-block;
   width: 100%;
   height: 100%;
   transition: .5s ease;
@@ -322,15 +316,11 @@ background:url('imagenes/cerrar.jpg') no-repeat;}
   text-align: center;
 }
 
-.consagracion:hover .imageConsagracion {
-  opacity: 0.3;
+.consagracion:hover .cambioConsagracion{
+  opacity: 1;
 }
 
-.consagracion:hover .cambioConsagracion {
-  opacity: 1;
-}
 .imageRenuncias {
-  opacity: 1;
   display: block;
   width: 100%;
   height: 100%;
@@ -350,15 +340,10 @@ background:url('imagenes/cerrar.jpg') no-repeat;}
   text-align: center;
 }
 
-.renuncias:hover .imageRenuncias {
-  opacity: 0.3;
-}
-
 .renuncias:hover .cambioRenuncias {
   opacity: 1;
 }
 .imagePlan {
-  opacity: 1;
   display: block;
   width: 100%;
   height: 100%;
@@ -376,10 +361,6 @@ background:url('imagenes/cerrar.jpg') no-repeat;}
   transform: translate(0%, 0%);
   -ms-transform: translate(0%, 0%);
   text-align: center;
-}
-
-.plan:hover .imagePlan {
-  opacity: 0.3;
 }
 
 .plan:hover .cambioPlan {
@@ -411,4 +392,43 @@ background:url('imagenes/cerrar.jpg') no-repeat;}
     z-index: 9999;
     background: url('imagenes/loader.gif') 50% 50% no-repeat rgb(249,249,249);
     opacity: .8;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 14px;}
 }
