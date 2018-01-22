@@ -22,8 +22,16 @@
 
  function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mortificacion").style.marginLeft = "30%";
+    document.getElementById("tituloUnion").style.marginLeft = "15%";
+    document.getElementById("tituloInicio").style.marginLeft = "50%";
+    document.getElementById("titulo").style.marginLeft = "15%";
+
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mortificacion").style.marginLeft= "15%";
+    document.getElementById("tituloInicio").style.marginLeft= "15%";
+    document.getElementById("titulo").style.marginLeft= "0%";
 }

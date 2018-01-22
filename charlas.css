@@ -8,7 +8,7 @@
 }
 
 .consagracion, .renuncias, .plan {
-  border: 1px solid #466995;
+  border: 1px solid #000;
   margin: 20px;
   display: inline-block;
   height: 200px;
@@ -87,15 +87,15 @@
   opacity: 1;
 }
 .renuncias .text{
-  background-color:  #CE7432;
+    background-color: rgb(153, 114, 45);
 }
 
 .consagracion .text{
-  background-color:  #48C9B0;
+  background-color: rgb(48, 67, 109);
 }
 
 .plan .text{
-  background-color:  #3498DB;
+    background-color: rgb(204, 178, 153);
 }
 
 .text {

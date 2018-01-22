@@ -7,11 +7,11 @@
 	  #tituloUnion{
 		  position:absolute;
       top:5%;
-      left: 25%;
+      left: 5%;
       width:80%;
       height: 20%;
   background-position: center;
-  color: #fff;
+  color: #000;
   font-size: 60px;
   font-family: 'Pacifico', cursive;
   text-shadow:1px 1px 0 #604e18;
@@ -21,8 +21,9 @@
       margin: auto;
       width:1100px;
       height:400px;
-	  top: -230px;
-	  left: 100px;    
+	  top: 15%;
+	  left: -5%;    
 	  position: relative;
   text-align: justify;
+  color: #000;
       }
