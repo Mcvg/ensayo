@@ -1,0 +1,86 @@
+ .inicioSesion {
+		   background-image: url("imagenes/virgen.jpg");
+	  }
+
+    .imageIniciosesion{
+          margin-top: -75px;
+    margin-bottom: 40px;
+    width: 25%;
+    border-radius: 50%;
+    left: 40%;
+    }
+form{
+
+background:#FFFFFF;
+opacity: 0.9;
+width:30%;
+border:1px solid #dcdcdc;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+box-shadow:inset 0 0 10px #000;
+margin:200px auto;
+height: auto;
+}
+
+form input{
+width:80%;
+height:7%;
+padding:4px 10px;
+color:#000000;
+text-align:center;
+}
+
+form .boton{
+ background-image:url(imagenes/login.png);
+  background-repeat:no-repeat;
+  height:54px;
+  width:54px;
+
+}
+form .boton:hover {
+opacity: 0.5;
+}
+
+form .boton{
+  width: 60%;
+  height: 30px;
+  font-size: 16px;
+  border: 0;
+  text-align: center;
+  background: rgba(255, 0, 0, 0.0);
+  border-bottom: solid 1px #000;
+  color: #000;
+  transition: all 200ms ease;
+}
+form .boton:hover{
+  width: 90%;
+}
+form .boton:active{
+  background-color: rgba(255, 255, 255,0.2);
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+form .boton:focus{
+  background-color: rgba(255, 255, 255,0.2);
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+
+   footer{
+         position:relative;
+      margin: 0px auto;
+      width: 100%;
+      height: 5%;
+      background:#ffffff;
+	  opacity: 0.7; 
+    top: -1%;
+      }
+	  footer .info{
+		  opacity: 1.0;
+		  color: black;
+		   margin: 0px auto;
+       text-align: center;
+	  }

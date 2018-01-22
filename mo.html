@@ -3,45 +3,18 @@
     <meta charset="utf-8">
     <title>propiedades de ubicacion</title>
       <link href="style.css" type="text/css" rel="stylesheet">
+	  <link href="mo.css" type="text/css" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
       	       <link rel="stylesheet" type="text/css" href="lib/sweetalert.css">
      <script src="lib/sweetalert.min.js"></script>	  
 <style type="text/css">body, a, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-5/cur464.cur), progress;}</style>
- 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   </head>
   
   <body class= "mo">
-      <SCRIPT  language=JavaScript> 
-	
-
-function mo(){
-
-	swal({ 
- title: "¿Está seguro que desea cerrar sesión?", 
- text: "No podrás deshacer este paso...", 
- type: "warning", 
- showCancelButton: true,
- cancelButtonText: "NO", 
- confirmButtonColor: "#DD6B55", 
- confirmButtonText: "SI", 
- closeOnConfirm: false }, 
-
- function(){ 
- window.location="inicioSesion.HTML"; 
- });
-}
-
- function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-
- 
-</SCRIPT> 
+    <script src="js/javascript.js">  </script>
+                  <div class="loader"></div>
 <div>
 	   <div id="titulo">
 	   Jesús nuestro fín último
@@ -53,10 +26,10 @@ function closeNav() {
     <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="charlas.html">Inicio</a>
-  <a href="#">Pureza y Humildad</a>
-  <a href="#">Vida De Unión Con María</a>
+  <a href="inicio.html">Pureza y Humildad</a>
+  <a href="union.html">Vida De Unión Con María</a>
   <a href="#">Signos De Un Consagrado</a>
-  <a href="#">Oraciones Del Consagrado</a>
+  <a href="oraciones.html">Oraciones Del Consagrado</a>
   <a href="mo.html"> Jesús Nuestro Fín Último</a>
   <a class="contact" onclick=mo(); id="mo">Cerrar Sesión</a>
 </div>

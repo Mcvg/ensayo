@@ -1,0 +1,105 @@
+.charlas  {
+		   background-image: url("imagenes/virgen.jpg");
+	  }
+.question {
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+.consagracion, .renuncias, .plan {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.imageConsagracion {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden; 
+  border-radius: 10px;
+  background-image: url("imagenes/consagracion.jpg"); 
+}
+
+.cambioConsagracion {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -70%;
+  transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  text-align: center;
+}
+
+.consagracion:hover .cambioConsagracion{
+  opacity: 1;
+}
+
+.imageRenuncias {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden; 
+  border-radius: 10px;
+  background-image: url("imagenes/consagracion.jpg"); 
+}
+
+.cambioRenuncias {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -70%;
+  transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  text-align: center;
+}
+
+.renuncias:hover .cambioRenuncias {
+  opacity: 1;
+}
+.imagePlan {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden; 
+  border-radius: 10px;
+  background-image: url("imagenes/consagracion.jpg"); 
+}
+
+.cambioPlan {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -70%;
+  transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  text-align: center;
+}
+
+.plan:hover .cambioPlan {
+  opacity: 1;
+}
+.renuncias .text{
+  background-color:  #CE7432;
+}
+
+.consagracion .text{
+  background-color:  #48C9B0;
+}
+
+.plan .text{
+  background-color:  #3498DB;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
