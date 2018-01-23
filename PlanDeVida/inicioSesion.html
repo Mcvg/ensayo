@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Charlas LAM</title>
+      <link href="style.css" type="text/css" rel="stylesheet">
+	   <link href="InicioSesion.css" type="text/css" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="lib/sweetalert.css">
+     <script src="lib/sweetalert.min.js"></script>
+
+  </head>
+<body class ="InicioSesion">
+<SCRIPT  language=JavaScript> 
+function go(){
+
+if(document.form.password.value=='' || document.form.login.value==''){
+swal('Importante!', 'Todos los campos maracdos con * son obligatorios', 'warning');
+
+}else if (document.form.password.value=='1000634966' && document.form.login.value=='MARIAC'){ 
+        window.location="INICIO.HTML"; 
+    } 
+    else{ 
+	swal('Importante!', 'Por favor ingrese, nombre de usuario y contraseña correctos', 'info');
+    } 
+} 
+</SCRIPT> 
+
+<form name="form">
+    <center>
+<p>
+<h1>	Inicio de sesión</h1></p>
+ 
+<br>
+<INPUT type=text name=login max-length="20" placeholder="Nombre usuario*">
+<BR> 
+<INPUT type=password name=password max-length="20" placeholder="Contraseña*"> 
+<br>
+<BR>
+<INPUT onclick=go() type=button class = "boton" value="Iniciar Sesión">
+</a>
+</center>
+<br>
+
+</form>
+<footer>
+<div class= "info">
+© 2018 mcvg.com 
+</div>
+</footer>
+</body>
+
+</html>

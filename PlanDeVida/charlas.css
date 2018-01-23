@@ -50,6 +50,11 @@
   background-image: url("imagenes/consagracion.jpg"); 
 }
 
+#tituloCharlas{
+  font-family: 'Aladin',  cursive; 
+  font-size: 80px; 
+  left: 35%;
+}
 .cambioRenuncias {
   transition: .5s ease;
   opacity: 0;
