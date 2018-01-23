@@ -16,7 +16,7 @@ function mo() {
     },
 
         function () {
-            window.location = "inicioSesion.HTML";
+            window.location = "inicioSesion.html";
         });
 
 }
