@@ -19,30 +19,29 @@ header{
     position:absolute;
     top:5%;
     left: 25%;
-    width:80%;
+    width:70%;
     height: 20%;
     background-position: center;
     color: #FFFFFF;
     font-size: 60px;
     font-family: 'Pacifico', cursive;
-    text-shadow:1px 1px 0 #604e18;
+    text-shadow:4px 4px 0 rgb(150,100,62);
 	}
 
-#tituloInicio, #tituloUnion{
-    color: #000000;
+#tituloRenuncias{
+    left: 5%;
+    font-size: 100px;
+    width: 60%;
+    margin-top: 25%;
     }
 
-#tituloPlan {
-    position:absolute;  
-    top:15%;
-    left: 5%;
-    font-size: 150px;  
- /* background: linear-gradient(to bottom right, black, white);
-  -webkit-background-clip: text;  
-  -webkit-text-fill-color: transparent;  */
-    text-align: center;
-    text-shadow:1px 1px 0 white;
-    color: black;
+#tituloBautismo {
+    left: 40%;
+    top: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    text-shadow:4px 4px 0 rgb(212, 142, 85);
     }  
 
 body{          
@@ -52,25 +51,13 @@ body{
     background-size: auto;
     background-attachment: fixed;/*para que sea estático*/
     }
-    .vida{
-		background-image: url("imagenes/vida.jpg");
+	.renuncias{
+		background-image: url("imagenes/renuncias.png");
+	    }
+    .bautismo{
+        background-image: url("imagenes/espirituSanto.jpg");
         }
-    .mo{
-		background-image: url("imagenes/camino.jpg");
-	    }
-    .inicio{
-		background-image: url("imagenes/cielo.png");
-        }         	  
-	.oraciones{
-		background-image: url("imagenes/orar.jpg");
-	    }
-    .signos{
-		background-image: url("imagenes/signosCon.jpg");
-	    }      	  
-	.union{
-		background-image: url("imagenes/union.jpg");
-	    }
-	  
+          
 .contenido{
     margin: auto;
     padding: 10px;  
