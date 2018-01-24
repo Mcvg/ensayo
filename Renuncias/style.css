@@ -56,10 +56,13 @@ header{
     }  
     
 #tituloOMR {
-    left: 15%;
-    width: 80%;
+    left: 25%;
     }  
-    
+
+#tituloAmor {
+    left: 35%;
+    width: 80%;
+    }
 
 body{          
     width: 100%;
@@ -83,6 +86,11 @@ body{
     .omr{
         background-image: url("imagenes/rosario.jpg");
         }
+    .amor{
+        background-image: url("imagenes/amor.jpg");
+        background-size: cover;
+        }
+          
           
 .contenido{
     margin: auto;
