@@ -40,8 +40,13 @@ header{
     top: 2%;
     color: rgb(255, 255, 255);
     font-size: 70px;
-    font-family: 'Pacifico', cursive;
     text-shadow:4px 4px 0 rgb(212, 142, 85);
+    }
+
+#tituloBautismo {
+    left: 20%;
+    color: rgb(255, 255, 255);
+    text-shadow:4px 4px 0 rgb(85, 187, 212);
     }  
 
 body{          
@@ -56,6 +61,9 @@ body{
 	    }
     .bautismo{
         background-image: url("imagenes/espirituSanto.jpg");
+        }
+    .bautismo{
+        background-image: url("imagenes/enemigosAlma.jpg");
         }
           
 .contenido{
