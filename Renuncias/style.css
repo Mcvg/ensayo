@@ -43,7 +43,7 @@ header{
     text-shadow:4px 4px 0 rgb(212, 142, 85);
     }
 
-#tituloBautismo {
+#tituloEnemigos {
     left: 20%;
     color: rgb(255, 255, 255);
     text-shadow:4px 4px 0 rgb(85, 187, 212);
@@ -62,7 +62,7 @@ body{
     .bautismo{
         background-image: url("imagenes/espirituSanto.jpg");
         }
-    .bautismo{
+    .enemigos{
         background-image: url("imagenes/enemigosAlma.jpg");
         }
           
