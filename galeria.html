@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>INICIO</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="charlas.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="lib/sweetalert.css">
+    <script src="lib/sweetalert.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/javascript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
+    </style>
+</head>
+<body class="galeria"
+    <div class="loader"></div>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="dropdown">
+                    <ul class="nav navbar-nav navbar-right">    
+                        <li><a href="#">Bloque 1</a></li>
+                        <li><a href="#">Bloque 2</a></li>
+                        <li><a href="#">Bloque 3</a></li>                   
+                        <li class="bloque4"><a href="#" >Bloque 4 
+                            <i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                <a href="#">¿Qué es el mundo?</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="tituloGaleria">Consagración a Jesús por María</div>
+    <br>
+  
+    <div class="w3-content w3-section" style="max-width:80%; top: 10%; height: 50%;">
+          <img class="mySlides w3-animate-fading" src="imagenes/1.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="imagenes/luis.jpg" style="width:100%">
+        <img class="mySlides  w3-animate-fading" src="imagenes/images.jpg" style="width:100%">
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 9000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+</html> 
